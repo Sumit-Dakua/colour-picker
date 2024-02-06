@@ -1,8 +1,4 @@
 # colour-picker
-a simple project using HTML, CSS, JavaScript to understand DOM
+a simple project using HTML, CSS, JavaScript to understand DOM manipulation.
 
-## creating HTML
 
-```
-
-```
