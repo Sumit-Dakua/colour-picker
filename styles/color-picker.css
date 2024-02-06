@@ -1,0 +1,59 @@
+*{
+  margin : 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.header,h1{
+  text-transform: uppercase;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.container{
+  
+  width:calc(100% - 4px);;
+  margin-left: 2px;
+  margin-right: 2px;
+  height : 75%;
+  border: 4px solid black;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  
+} 
+
+.color-buttons{
+
+  height: 70%;
+  width: 25px;
+  border: 2px solid black;
+  margin:0 2px 0 2px;
+    flex-wrap:wrap;
+  flex-grow: 4;
+}
+#yellow{
+  background-color: yellow;
+}
+
+#red{
+  background-color: red;
+}
+
+#green{
+  background-color: green;
+}
+#blue{
+  background-color: blue;
+}
+#pink{
+  background-color: pink;
+}
+#purple{
+  background-color: purple;
+}
